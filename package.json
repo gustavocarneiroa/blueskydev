@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.6.20",
+    "cron": "^3.1.0",
+    "dotenv": "^16.3.1",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
